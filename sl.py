@@ -7,10 +7,10 @@ import numpy as np
 
 
 def main():
-    st.title("Streamlit Tutorial")
+    st.title("URL phishing prediction")
     html_temp = """
     <div style="background-color:#025246 ;padding:10px">
-    <h2 style="color:white;text-align:center;">Forest Fire Prediction ML App </h2>
+    <h2 style="color:white;text-align:center;">URL phishing prediction </h2>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
