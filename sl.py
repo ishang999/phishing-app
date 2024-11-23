@@ -7,7 +7,7 @@ import numpy as np
 
 
 def main():
-    st.title("URL phishing prediction")
+    #st.title("URL phishing prediction")
     html_temp = """
     <div style="background-color:#025246 ;padding:10px">
     <h2 style="color:white;text-align:center;">URL phishing prediction </h2>
