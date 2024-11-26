@@ -1,0 +1,12 @@
+numpy
+pandas~=2.2.2
+pydeck
+streamlit~=1.34.0
+plotly~=5.22.0
+scikit-learn
+joblib
+tensorflow~=2.15.0
+keras~=2.15.0
+socket
+pickle
+urlparse
