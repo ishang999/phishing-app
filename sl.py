@@ -12,8 +12,7 @@ print("Current Working Directory:", os.getcwd())
 current_dir = os.path.dirname(os.path.realpath(__file__))
 model_path = os.path.join(current_dir, 'model_code/svm_classification_model.pkl')
 
-with open(model_path, 'rb') as model_file:
-    model = pickle.load(model_file)
+model = load_model("model_code/model_name.pkl")
 
 scaler_path = os.path.join(current_dir, 'model_code/scaler.pkl')
 
